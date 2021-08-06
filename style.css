@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+/* header */
+header{
+	display:flex;
+	justify-content:center;
+	background:#6495ED;
+}
+.logo{
+	padding: 10px 0px;
+	color:orange;
+	font-size:21px;
+}
+.nav{
+	width:80%;
+	display:flex;
+	justify-content:space-between;
+}
+.menu {
+	display:flex;
+	align-items:center;
+	color:black;
+}
+.menu a{
+	text-decoration:none;
+	padding: 10px 15px;
+	
+}
+/* header */
+main{
+	margin-top: 70px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items: center;
+}
+.banner{
+	width:80%;
+}
+.banner img{
+	width:100%;
+	height: 500px;
+}
+section.about {
+    display: flex;
+    justify-content: space-evenly;
+	margin: 70px 0px;
+}
+.road{
+	width:30%;
+	border: 1px solid black;
+}
+.road img{
+	width: 100%;
+}
+.details{
+	text-align:justify;
+	padding: 0 10px;
+}
+.details h3{
+	margin:20px 0px;
+}
+.full{
+	width:100%;
+	text-align: center;
+    padding: 200px 0px;
+	background-image:url(img/1520244478160.jpg);
+	font-size:32px;
+	color:white;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.foot {
+    width: 80%;
+    text-align: center;
+    padding: 100px 0px;
+    background: black;
+    color: white;
+	margin-top: 70px;
+}
+.foot h1 {
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+.foot a {
+    padding: 10px 10px;
+    font-size: 23px;
+}
